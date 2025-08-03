@@ -2,7 +2,7 @@
 var fileName = "pdfData.jpg";
 //write your code here
 
-if (fileName[0].includes('#') || fileName.includes('.pdf') || fileName.includes('.docx')) {
+if (fileName[0].includes('#') || fileName.endsWith('.pdf') || fileName.endsWith('.docx')) {
     console.log('Store')
 }
 else {
