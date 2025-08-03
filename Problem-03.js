@@ -3,6 +3,7 @@ var lastDay = 6;
 //write your code here
 
 if (3 < lastDay && lastDay <= 30) {
+
     for (var i = 1; i <= lastDay; i++) {
         if (i % 3 === 0) {
             console.log(i + ' - ' + 'medicine')
@@ -11,4 +12,5 @@ if (3 < lastDay && lastDay <= 30) {
             console.log(i + ' - ' + 'rest')
         }
     }
+
 }

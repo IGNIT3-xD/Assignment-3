@@ -3,6 +3,7 @@ var money = 9999;
 //write your code here
 
 if (0 < money && money <= Math.pow(10, 9)) {
+
     if (money >= 25000) {
         console.log('Laptop')
     }
@@ -12,4 +13,5 @@ if (0 < money && money <= Math.pow(10, 9)) {
     else {
         console.log('Chocolate')
     }
+    
 }
